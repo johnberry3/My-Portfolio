@@ -169,8 +169,10 @@ h6{font-size: 16px;}
 }
 #preview-shadow{
     background-color: var(--preview-shadow);
-    width: 300px;
+    position: relative;
+    width: 250px;
     height: 180px;
+    right: 40px;
     padding-left: 30px;
     padding-top: 30px;
 }
@@ -180,7 +182,7 @@ h6{font-size: 16px;}
     text-align: center;
 }
 #preview{
-    width: 300px;
+    width: 250px;
     border: 1.5px solid #17a2b8;
     background-color: var(--previewBg);
     padding: 15px;
